@@ -7,6 +7,7 @@ import { StarterHeaderComponent } from './component/starter-header/starter-heade
 import { StarterFooterComponent } from './component/starter-footer/starter-footer.component';
 import { StarterMainSliderComponent } from './component/starter-main-slider/starter-main-slider.component';
 import { StarterMainServicesComponent } from './component/starter-main-services/starter-main-services.component';
+import { StarterMainPricingComponent } from './component/starter-main-pricing/starter-main-pricing.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { StarterMainServicesComponent } from './component/starter-main-services/
     StarterHeaderComponent,
     StarterFooterComponent,
     StarterMainSliderComponent,
-    StarterMainServicesComponent
+    StarterMainServicesComponent,
+    StarterMainPricingComponent
   ],
   imports: [
     CommonModule,
